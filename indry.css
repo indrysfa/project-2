@@ -1,0 +1,66 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+@include media-breakpoint-only(xs) { ... }
+@include media-breakpoint-only(sm) { ... }
+@include media-breakpoint-only(md) { ... }
+@include media-breakpoint-only(lg) { ... }
+@include media-breakpoint-only(xl) { ... }
+
+$zindex-dropdown:          1000 !default;
+$zindex-sticky:            1020 !default;
+$zindex-fixed:             1030 !default;
+$zindex-modal-backdrop:    1040 !default;
+$zindex-modal:             1050 !default;
+$zindex-popover:           1060 !default;
+$zindex-tooltip:           1070 !default; */
+
+/* design header */
+.navbar a img{
+    width: 70px;
+    height: 70px;
+}
+
+/* background body */
+.container-fluid{
+    padding-top: 30px;
+    background-color: #90EE90;
+    position: relative;
+}
+
+/* sejarah perusahaan */
+.container-fluid .row .media{
+    padding-bottom: 30px;
+}
+
+/* visi misi */
+.container-fluid .row .col-md-9 .media img{
+    width: 300px;
+    height: 300px;
+}
+
+/* header struktur perusahaan */
+.container-fluid .row .alert{
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    background-color: #20B2AA;
+    height: 50px;
+    font-size: 25px;
+    clear: both;
+    text-align: center;
+}
